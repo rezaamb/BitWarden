@@ -1,4 +1,4 @@
-# Bitwarden Self‑Hosted – راهنمای گیت‌هاب (قابل‌کپی)
+# Bitwarden Self‑Hosted
 
 
 # فهرست مطالب
