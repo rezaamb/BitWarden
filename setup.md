@@ -149,6 +149,27 @@ globalSettings__mail__smtp__username=<smtp-user>
 globalSettings__mail__smtp__password=<smtp-pass>
 adminSettings__admins=<admin1@example.com,admin2@example.com>
 ```
+اگر SMTP شما 587/STARTTLS است:
+```bash
+globalSettings__mail__smtp__host=smtp.<example.com>
+globalSettings__mail__smtp__port=587
+globalSettings__mail__smtp__ssl=false
+globalSettings__mail__smtp__startTls=true
+globalSettings__mail__smtp__username=<USERNAME>
+globalSettings__mail__smtp__password=<PASSWORD>   # بدون کاراکتر $
+globalSettings__mail__replyToEmail=no-reply@<example.com>
+```
+اگر SMTP شما 465/SMTPS است:
+```bash
+globalSettings__mail__smtp__host=smtp.<example.com>
+globalSettings__mail__smtp__port=465
+globalSettings__mail__smtp__ssl=true
+globalSettings__mail__smtp__startTls=false
+globalSettings__mail__smtp__username=<USERNAME>
+globalSettings__mail__smtp__password=<PASSWORD>   # بدون کاراکتر $
+globalSettings__mail__replyToEmail=no-reply@<example.com>
+```
+
 
 تست SMTP:
 
